@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "CursedTimerUlil-Aznm";
+  src: url(CursedTimerUlil-Aznm.ttf);
+    }
+
+
+body {
+    margin: 0;
+    background-image: url(foosball.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: "Oswald", sans;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#title-h, #title-g{
+    color: white;
+    font-size: 30px;
+    margin: 60px 0px -10px 0px;
+    text-shadow: 0 0 10px black;
+}
+
+#score-h, #score-g{
+    padding: 30px 15px 30px 70px;
+    background: #003049;
+    text-align: end;
+    font-size: 60px;
+    color: #ef233c;
+    border: solid 4px black;
+    border-radius: 10%;
+    margin: 20px 0px 10px 0px;
+    font-family: CursedTimerUlil-Aznm;
+}
+
+#h-btn, #g-btn{
+  text-align: center;
+}
+
+ .h-R, .g-R, .h-plus, .g-plus{
+    background: #003049;
+    color: white;
+    border: solid 2px black;
+    border-radius: 10%;
+    text-shadow: 0 0 8px black;
+    font-family: "Oswald", sans;
+}
+
